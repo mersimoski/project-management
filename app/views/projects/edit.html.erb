@@ -1,0 +1,14 @@
+<div class="d-flex mb-3">
+<%= link_to 'Back', @project, class:"btn btn-secondary mr-1" %>
+<%= link_to 'Show', @project, class:"btn btn-primary" %>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h2 class="card-title mb-4">
+      <span>Edit <%= @project.name %></span>
+     </h2>
+
+	<%= render 'form', project: @project %>
+	</div>
+</div>

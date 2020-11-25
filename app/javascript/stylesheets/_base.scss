@@ -1,0 +1,7 @@
+.project-card{
+	transition:0.3s all ease;
+	&:hover{
+	background-color: #f7f7f7;
+	transform: scale(1.02);
+	}
+}
